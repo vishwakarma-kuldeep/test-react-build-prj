@@ -18,11 +18,11 @@ npm install -g serve
 yarn global add serve
 
 # Serve the build folder
-serve -s build
+serve -s dist
 
 # Serve explicitly pointing to index.html
-serve -s build/index.html
+serve -s dist/index.html
 
 # Serve on a custom port (example: 3000)
-serve -s build -l 3000
+serve -s dist -l 3000
 
